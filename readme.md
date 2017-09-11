@@ -1,1 +1,1 @@
-Boilerplate React App
+Learn using redux with react
