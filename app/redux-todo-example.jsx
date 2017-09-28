@@ -2,9 +2,13 @@ var redux = require('redux');
 
 console.log('Starting redux example');
 
-// Reducer
-var reducer = (state = {name: 'Anonymous'}, action) => {
-  //state = state || {name: 'Anonymous'};
+var initialState = {
+  searchText: '',
+  showCompleted: false,
+  todos: []
+}
+
+var reducer = (state = initialState, action) => {
   return state;
 };
 var store = redux.createStore(reducer);
